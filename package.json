@@ -1,0 +1,33 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register tests/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-in-bp/node-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code-in-bp/node-testing/issues"
+  },
+  "homepage": "https://github.com/code-in-bp/node-testing#readme",
+  "dependencies": {
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.18",
+    "@types/mocha": "^8.2.2",
+    "@types/node": "^15.6.1",
+    "@types/sinon": "^10.0.0",
+    "@types/typescript": "^2.0.0",
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0",
+    "sinon": "^11.1.0",
+    "ts-node": "^10.0.0"
+  }
+}
