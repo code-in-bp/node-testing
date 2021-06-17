@@ -5,7 +5,7 @@ import sinon from 'sinon';
 var AdditionClass = require ('../src/additionClass');
 var myAddition = new AdditionClass();
 
-describe.skip("Test Addition", () => {
+describe("Test Addition", () => {
     it("Should return Pass - Happy Path", () => {
         expect(myAddition.add(10,10)).to.be.equal(20);
     });
