@@ -6,8 +6,9 @@
 - unit testing and integration testing
 
 ### getting started Resources
-    *  https://sinonjs.org/releases/latest/spies/
+    * https://sinonjs.org/releases/latest/spies/
     * https://www.youtube.com/watch?v=lvjDDn9cpL4&list=PLgbtO1Bcz4C-vU0JLfDBsZGbSUdNX4mQ8&index=3
+    * https://adrianhall.github.io/web/2018/07/04/run-typescript-mocha-tests-in-vscode/
     
 ### setup vsCode debugger for typescript
 tsconfig.json
