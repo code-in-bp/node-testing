@@ -1,12 +1,11 @@
-import * as mongoose from 'mongoose';
-
-const dbCredentials = require('../database/config.json');
+import mongoose from 'mongoose';
+import { mongoDBLink } from '../database/config.json';
 
 export const dbConnect = async () : Promise<any> => {
-    console.log("DB credentials " + dbCredentials.mongoDBLink);
+    console.log("DB credentials " + mongoDBLink);
 
 
-    await mongoose.connect(dbCredentials.mongoDBLink, {
+    await mongoose.connect(mongoDBLink, {
             useNewUrlParser: true,
 			useCreateIndex: true,
 			useFindAndModify: false,
