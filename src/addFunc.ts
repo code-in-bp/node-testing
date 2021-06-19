@@ -17,7 +17,7 @@
 //     }
 
 
-//     // we want to test callAnotherFn, so the callAnotherFn should be tested regardless what is happening in sayHello() function. 
+//     // we want to test callAnotherFn, so the callAnotherFn should be tested regardless what is happening in sayHello() function.
 //     // in contrast, callAnotherFn function should not be depended on sayHello function and this done by mocking
 
 //     callAnotherFn (arg1: number, arg2: number) {

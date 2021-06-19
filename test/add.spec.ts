@@ -28,13 +28,8 @@ describe("Getting started - Test Addition", () => {
 
         assert.isTrue(addFunctionStub.calledOnce);
         // assert.deepEqual(add(10,10), 20);
-        
+
     });
-
-
-    it('should not add negative numbers', () => {
-        
-    })
 
     // it("Should fail the test with wrong result - unit test", () => {
     //     assert.notDeepEqual(add(10,10), 30);
@@ -57,7 +52,7 @@ describe("Getting started - Test Addition", () => {
 // describe("Test suite for Stub", () => {
 //     it("Should stub the add function - happy path", () => {
 //         var addStub = sinon.stub(myAddition, "add");
-//         addStub.withArgs(10,20).returns(100);   // we are assuming that the returns is 100 
+//         addStub.withArgs(10,20).returns(100);   // we are assuming that the returns is 100
 //         expect(myAddition.callAnotherFn(10,20)).to.be.equal(100);
 //         sinon.restore();
 //     });
