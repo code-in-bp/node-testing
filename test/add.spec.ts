@@ -22,7 +22,7 @@ describe("Getting started - Test Addition", () => {
         sandbox.restore();
     })
 
-    it.only("Should add two numbers - Happy Path", () => {
+    it("Should add two numbers - Happy Path", () => {
         addFunctionStub.returns(20);
         addNumbers(10,10);
 
