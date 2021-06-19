@@ -7,6 +7,4 @@ export class DocumentRepository {
         const addResult = arg1 + arg2;
         return addResult;
     }
-
-    
 };
