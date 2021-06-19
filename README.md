@@ -48,4 +48,15 @@ tsconfig.json
   ]
 }
 
-```
+### How to run
+    * Test -> `npm run test`
+    * Lint -> `npm run lint`
+    * Coverage -> `npm run coverage`
+    * build -> `npm run build`
+
+### run mongoDB on docker
+    * in terminal, `sudo docker-compose up -d` 
+
+### stop mongodb on docker
+    * `sudo docker ps`
+    * in terminal, `sudo docker stop CONTAINER_ID`

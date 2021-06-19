@@ -10,7 +10,10 @@
             "allow-constructor-only",
             "allow-static-only",
             "allow-empty-class"
-        ]
+        ],
+        "no-console": false,
+        "no-var-keyword": true,
+        "prefer-const": false
     },
     "rulesDirectory": [],
     "quotemark": [
