@@ -1,0 +1,27 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "no-unnecessary-class": [
+            true,
+            "allow-constructor-only",
+            "allow-static-only",
+            "allow-empty-class"
+        ]
+    },
+    "rulesDirectory": [],
+    "quotemark": [
+        true,
+        "single",
+        "avoid-template",
+        "avoid-escape"
+    ],
+    "semicolon": [
+        true,
+        "always",
+        "strict-bound-class-methods"
+    ]
+}
