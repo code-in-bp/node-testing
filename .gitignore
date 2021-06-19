@@ -1,3 +1,4 @@
 node_modules
 covrage
 .nyc_output
+dist
