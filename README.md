@@ -63,3 +63,6 @@ tsconfig.json
 ### Stop mongodb on docker
     * `sudo docker ps`
     * in terminal, `sudo docker stop CONTAINER_ID`
+
+
+![tdd](https://user-images.githubusercontent.com/29209873/122658364-974cd480-d16c-11eb-9e74-2e11b6c5933a.png)

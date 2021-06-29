@@ -12,7 +12,7 @@ export const getCarById = (id: string) => {
     } catch(error) {
         if(error.statusCode === '404')
             throw(error.message = 'Car id not found');
-
+      
         throw(error);
     }
 }
