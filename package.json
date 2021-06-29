@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc --project ./tsconfig.json",
     "start": "node --require ts-node/register ./main.ts",
-    "test": "mocha --require ts-node/register test/*.spec.ts",
+    "test": "mocha --require ts-node/register test/*.spec.ts test/repositories/*.spec.ts",
     "coverage": "nyc --reporter=html --reporter=text-summary npm run test",
     "lint": "tslint --project ./tsconfig.json"
   },
